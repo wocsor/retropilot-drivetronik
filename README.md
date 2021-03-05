@@ -4,14 +4,17 @@ sensors and actuators for retrofitting old vehicles with autonomy
 Current parts list:
 
 |Part          | Link        | 
-|-------------- |-------------|
-| 350mm Bearing | https://www.amazon.com/TamBee-Aluminum-Rotating-Turntable-Dining-Table/dp/B071FL5QR3/ref=sr_1_27?crid=I8JBQUCOKBSE&dchild=1&keywords=lazy+susan+bearing&qid=1611597016&sprefix=lazy+suzan+bea%2Caps%2C188&sr=8-27 | 
-| Ball Bearings | https://www.amazon.com/uxcell-Groove-Bearings-Double-Shielded/dp/B0819927WR/ref=sr_1_6?dchild=1&keywords=3mm+ball+bearing&qid=1611150733&sr=8-6 |
+|-------------- |-------------| 
+| Small Ball Bearings | https://www.amazon.com/gp/product/B075CM3FG3/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1|
+| Larger Ball Bearings | https://www.amazon.com/gp/product/B07R7PR72H/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
 AS504B Boards | https://www.mouser.com/ProductDetail/ams/AS5048B-TS_EK_AB?qs=Rt6VE0PE%2FOduJIB%252BRfeBZQ%3D%3D |
 L298N driver | https://www.amazon.com/Qunqi-2Packs-Controller-Stepper-Arduino/dp/B01M29YK5U/ref=sr_1_6?crid=1M01FN9LFBNPM&dchild=1&keywords=l298n&qid=1611150995&sprefix=L298%2Caps%2C153&sr=8-6 |
-ZT230 Stepper | you can probably find this on eBay |
+NEMA23 Stepper | https://www.amazon.com/gp/product/B00PNEPF5I/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1 |
 
-<h2> Theory of Operation</h2>
+### TOTAL COST: 56.42
+Plus a bunch of spare H bridges and bearings, because Amazon is now Costco if you want to buy Prime.
+
+## Theory of Operation
 
 the sensors are connected by I2C to an Arduino. this will be replaced with another micro soon, but currently it's being used to develop an algorithm for determining the absolute position of the actuator.
 
